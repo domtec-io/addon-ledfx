@@ -1,0 +1,10 @@
+version: '3'
+services:
+  ledfx:
+    image: ledfx/ledfx
+    container_name: ledfx
+    restart: unless-stopped
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./data:/root/.ledfx

@@ -1,0 +1,10 @@
+{
+  "name": "LEDFx",
+  "version": "1.0.0",
+  "slug": "ledfx",
+  "description": "LEDFx integration for Home Assistant",
+  "startup": "before",
+  "boot": "auto",
+  "options": {},
+  "schema": {}
+}
