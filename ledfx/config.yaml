@@ -1,0 +1,13 @@
+name: LEDFx
+version: "1.0.0"
+slug: ledfx
+description: "Integrate LEDFx to control LED lights in response to music."
+arch:
+  - amd64
+  - armhf
+  - armv7
+  - aarch64
+init: false
+options: {}
+schema: {}
+image: "ghcr.io/home-assistant/{arch}-addon-ledfx"
